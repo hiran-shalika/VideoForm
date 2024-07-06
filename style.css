@@ -11,16 +11,19 @@ header {
     padding: 10px 20px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center; /* Center the content horizontally */
+    position: relative;
 }
 
-header h1 {
+header h3 {
     margin: 0;
 }
 
 header input {
     padding: 5px;
     font-size: 16px;
+    position: absolute;
+    right: 20px;
 }
 
 main {
